@@ -1,0 +1,29 @@
+.button {
+    padding: 8px 20px;
+    border-radius: 2px;
+    background-color: #5d5dff;
+    box-shadow: 0px 1px 3px 0px rgba(25, 32, 44, 0.04);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    transition: all 0.3s ease 0s;
+    @media (any-hover: hover) {
+        &:hover {
+            background-color: #2b2b68;
+        }
+    }
+    @media (max-width: 467.98px) {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+}
+.transparent {
+    color: #5d5dff;
+    background-color: transparent;
+    @media (any-hover: hover) {
+        &:hover {
+            background-color: #2d2d34;
+        }
+    }
+}
